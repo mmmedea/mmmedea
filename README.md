@@ -34,7 +34,7 @@
 <div align="center">
 
 **☁️ Cloud & Cybersecurity**<br>
-<img src="https://img.shields.io/badge/AWS-030014?style=for-the-badge&logo=amazon-aws&logoColor=A855F7" alt="AWS" />
+<img src="https://img.shields.io/badge/AWS_Cloud_Practitioner-030014?style=for-the-badge&logo=amazon-aws&logoColor=A855F7" alt="AWS Cloud Practitioner" />
 <img src="https://img.shields.io/badge/Google_Cloud-030014?style=for-the-badge&logo=google-cloud&logoColor=A855F7" alt="Google Cloud" />
 <img src="https://img.shields.io/badge/Cybersecurity-030014?style=for-the-badge&logo=tryhackme&logoColor=A855F7" alt="Cybersecurity" />
 
@@ -53,32 +53,30 @@
 <img src="https://img.shields.io/badge/HTML5-030014?style=for-the-badge&logo=html5&logoColor=A855F7" alt="HTML5" />
 <img src="https://img.shields.io/badge/CSS3-030014?style=for-the-badge&logo=css3&logoColor=A855F7" alt="CSS3" />
 <img src="https://img.shields.io/badge/JavaScript-030014?style=for-the-badge&logo=javascript&logoColor=A855F7" alt="JavaScript" />
+<img src="https://img.shields.io/badge/React-030014?style=for-the-badge&logo=react&logoColor=A855F7" alt="React" />
+<img src="https://img.shields.io/badge/Vercel-030014?style=for-the-badge&logo=vercel&logoColor=A855F7" alt="Vercel" />
 
 </div>
 
 ---
 
-### 🌟 Notable Projects
+### 🚀 StartUp Project
 
-**[🏋️ Gym Website Repository](https://github.com/mmmedea)**
-A responsive web platform featuring an integrated music player, deployed fully via GitHub Pages.
-*Tech:* HTML, CSS, GitHub Pages
-
-**[🌐 Network Infrastructure Prototype](https://github.com/mmmedea)**
-A comprehensive network topology designed to route four building laboratories through a single centralized router.
-*Tech:* Cisco Packet Tracer, VLSM
-
-**[📊 Database Management System](https://github.com/mmmedea)**
-A backend database project managed via Google Firebase and the Google Cloud Console.
-*Tech:* Firebase, Google Cloud
+**[RecallMate](https://recallmate-gv4ayaepl-medea18.vercel.app/)**
+A modern web application deployed on Vercel designed to streamline information retention and access.
+* **Skills & Tech Needed:** 
+  * Frontend Development (HTML, CSS, JavaScript, React.js)
+  * Cloud Hosting & Deployment (Vercel Integration)
+  * UI/UX Design principles for responsive web platforms
+  * Version Control (Git/GitHub)
 
 ---
 
 ### 📈 GitHub Stats
 
 <div align="center">
-  <!-- 4. Fixed Stats Cards: Using updated APIs to prevent timeouts and broken images -->
-  <img src="https://github-readme-stats.vercel.app/api?username=mmmedea&show_icons=true&bg_color=030014&title_color=A855F7&text_color=9ca3af&icon_color=A855F7&border_color=374151&count_private=true" alt="GitHub Stats" />
+  <!-- 4. Fixed Stats Cards: Adjusted API call to prevent the broken image shown in image_7b79a5.png -->
+  <img src="https://github-readme-stats.vercel.app/api?username=mmmedea&show_icons=true&bg_color=030014&title_color=A855F7&text_color=9ca3af&icon_color=A855F7&border_color=374151" alt="GitHub Stats" />
   <img src="https://streak-stats.demolab.com/?user=mmmedea&stroke=A855F7&background=030014&ring=A855F7&fire=A855F7&currStreakNum=ffffff&currStreakLabel=A855F7&sideNums=ffffff&sideLabels=9ca3af&dates=9ca3af&border=374151" alt="GitHub Streak" />
 </div>
 
