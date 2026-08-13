@@ -75,8 +75,8 @@ A modern web application deployed on Vercel designed to streamline information r
 ### 📈 GitHub Stats
 
 <div align="center">
-  <!-- 4. Fixed Stats Cards: Adjusted API call to prevent the broken image shown in image_7b79a5.png -->
-  <img src="https://github-readme-stats.vercel.app/api?username=mmmedea&show_icons=true&bg_color=030014&title_color=A855F7&text_color=9ca3af&icon_color=A855F7&border_color=374151" alt="GitHub Stats" />
+  <!-- 4. Fixed Stats Cards: Injected cache_seconds=86400 to force the server to load the image instead of timing out on GitHub's API -->
+  <img src="https://github-readme-stats.vercel.app/api?username=mmmedea&show_icons=true&bg_color=030014&title_color=A855F7&text_color=9ca3af&icon_color=A855F7&border_color=374151&cache_seconds=86400" alt="GitHub Stats" />
   <img src="https://streak-stats.demolab.com/?user=mmmedea&stroke=A855F7&background=030014&ring=A855F7&fire=A855F7&currStreakNum=ffffff&currStreakLabel=A855F7&sideNums=ffffff&sideLabels=9ca3af&dates=9ca3af&border=374151" alt="GitHub Streak" />
 </div>
 
