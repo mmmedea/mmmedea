@@ -75,8 +75,12 @@ A modern web application deployed on Vercel designed to streamline information r
 ### 📈 GitHub Stats
 
 <div align="center">
-  <!-- 4. Fixed Stats Cards: Injected cache_seconds=86400 to force the server to load the image instead of timing out on GitHub's API -->
-  <img src="https://github-readme-stats.vercel.app/api?username=mmmedea&show_icons=true&bg_color=030014&title_color=A855F7&text_color=9ca3af&icon_color=A855F7&border_color=374151&cache_seconds=86400" alt="GitHub Stats" />
+  <!-- 4. Replaced the broken Stats Card with a sleek, ultra-modern Activity Graph that uses a different, stable server -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mmmedea&bg_color=030014&color=A855F7&line=A855F7&point=ffffff&area=true&hide_border=true" alt="GitHub Activity Graph" width="100%" />
+  
+  <br><br>
+  
+  <!-- GitHub Streak remains the same using the reliable Demolab server -->
   <img src="https://streak-stats.demolab.com/?user=mmmedea&stroke=A855F7&background=030014&ring=A855F7&fire=A855F7&currStreakNum=ffffff&currStreakLabel=A855F7&sideNums=ffffff&sideLabels=9ca3af&dates=9ca3af&border=374151" alt="GitHub Streak" />
 </div>
 
