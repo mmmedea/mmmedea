@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" width="1200" height="250">
+  <defs>
+    <radialGradient id="ambientCenter" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#030014" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="quoteGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#c4b5fd" />
+    </linearGradient>
+    <pattern id="dotGrid2" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="#ffffff" opacity="0.04"/>
+    </pattern>
+  </defs>
+
+  <!-- Base & Lighting -->
+  <rect width="1200" height="250" fill="#030014"/>
+  <rect width="1200" height="250" fill="url(#ambientCenter)"/>
+  <rect width="1200" height="250" fill="url(#dotGrid2)"/>
+
+  <!-- Minimalist Quote Mark Accent -->
+  <text x="600" y="100" font-family="'Georgia', serif" font-size="80" font-weight="900" fill="#a855f7" opacity="0.2" text-anchor="middle">"</text>
+
+  <!-- The Requested Quote -->
+  <text x="600" y="145" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="500" font-style="italic" fill="url(#quoteGradient)" text-anchor="middle" letter-spacing="1.5">You may encounter many defeats, but you must not be defeated</text>
+
+  <!-- Solid Tech Base Line -->
+  <rect x="0" y="245" width="1200" height="5" fill="#a855f7" opacity="0.8"/>
+</svg>
