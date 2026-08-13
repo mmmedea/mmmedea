@@ -75,18 +75,18 @@ A modern web application deployed on Vercel designed to streamline information r
 ### 📈 GitHub Stats
 
 <div align="center">
-  <!-- 4. Replaced the broken Stats Card with a sleek, ultra-modern Activity Graph that uses a different, stable server -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mmmedea&bg_color=030014&color=A855F7&line=A855F7&point=ffffff&area=true&hide_border=true" alt="GitHub Activity Graph" width="100%" />
+  <!-- GitHub Streak placed on top -->
+  <img src="https://streak-stats.demolab.com/?user=mmmedea&stroke=A855F7&background=030014&ring=A855F7&fire=A855F7&currStreakNum=ffffff&currStreakLabel=A855F7&sideNums=ffffff&sideLabels=9ca3af&dates=9ca3af&border=374151" alt="GitHub Streak" />
   
   <br><br>
-  
-  <!-- GitHub Streak remains the same using the reliable Demolab server -->
-  <img src="https://streak-stats.demolab.com/?user=mmmedea&stroke=A855F7&background=030014&ring=A855F7&fire=A855F7&currStreakNum=ffffff&currStreakLabel=A855F7&sideNums=ffffff&sideLabels=9ca3af&dates=9ca3af&border=374151" alt="GitHub Streak" />
+
+  <!-- Activity Graph moved below the streak -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mmmedea&bg_color=030014&color=A855F7&line=A855F7&point=ffffff&area=true&hide_border=true" alt="GitHub Activity Graph" width="100%" />
 </div>
 
 <br>
 
 <div align="center">
-  <!-- 5. Custom UI/UX Footer SVG with Quote -->
+  <!-- Custom UI/UX Footer SVG with Quote -->
   <img src="footer.svg" width="100%" alt="Footer Banner" />
 </div>
