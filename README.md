@@ -75,12 +75,7 @@ A modern web application deployed on Vercel designed to streamline information r
 ### 📈 GitHub Stats
 
 <div align="center">
-  <!-- GitHub Streak placed on top, migrated to the stable Vercel server -->
-  <img src="https://github-readme-streak-stats.vercel.app/api?user=mmmedea&stroke=A855F7&background=030014&ring=A855F7&fire=A855F7&currStreakNum=ffffff&currStreakLabel=A855F7&sideNums=ffffff&sideLabels=9ca3af&dates=9ca3af&border=374151" alt="GitHub Streak" />
-  
-  <br><br>
-
-  <!-- Activity Graph moved below the streak -->
+  <!-- Dynamic GitHub Activity Graph -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=mmmedea&bg_color=030014&color=A855F7&line=A855F7&point=ffffff&area=true&hide_border=true" alt="GitHub Activity Graph" width="100%" />
 </div>
 
