@@ -75,8 +75,8 @@ A modern web application deployed on Vercel designed to streamline information r
 ### 📈 GitHub Stats
 
 <div align="center">
-  <!-- GitHub Streak placed on top -->
-  <img src="https://streak-stats.demolab.com/?user=mmmedea&stroke=A855F7&background=030014&ring=A855F7&fire=A855F7&currStreakNum=ffffff&currStreakLabel=A855F7&sideNums=ffffff&sideLabels=9ca3af&dates=9ca3af&border=374151" alt="GitHub Streak" />
+  <!-- GitHub Streak placed on top, migrated to the stable Vercel server -->
+  <img src="https://github-readme-streak-stats.vercel.app/api?user=mmmedea&stroke=A855F7&background=030014&ring=A855F7&fire=A855F7&currStreakNum=ffffff&currStreakLabel=A855F7&sideNums=ffffff&sideLabels=9ca3af&dates=9ca3af&border=374151" alt="GitHub Streak" />
   
   <br><br>
 
