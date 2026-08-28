@@ -14,16 +14,8 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      
-      # 1. Generates the main GitHub Stats Card
-      - name: Generate GitHub Stats Card
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: stats
-          options: username=mmmedea&show_icons=true&bg_color=030014&title_color=A855F7&text_color=9ca3af&icon_color=A855F7&hide_border=true
-          path: profile/stats.svg
           
-      # 2. Generates the Top Languages Card
+      # 1. Generates the Top Languages Card
       - name: Generate Top Languages Card
         uses: stats-organization/github-readme-stats-action@v2
         with:
@@ -31,7 +23,7 @@ jobs:
           options: username=mmmedea&layout=compact&bg_color=030014&title_color=A855F7&text_color=9ca3af&hide_border=true
           path: profile/top-langs.svg
 
-      # 3. Generates the Activity Graph
+      # 2. Generates the Activity Graph
       - name: Generate Activity Graph
         uses: maurodesouza/github-readme-activity-graph-action@v1
         with:
@@ -39,7 +31,7 @@ jobs:
           options: bg_color=030014&color=9ca3af&line=A855F7&point=ffffff&area=true&hide_border=true
           output_path: profile/activity-graph.svg
 
-      # 4. Generates the GitHub Streak Stats
+      # 3. Generates the GitHub Streak Stats
       - name: Generate GitHub Streak Stats
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
