@@ -58,9 +58,23 @@
 
 </div>
 
+---
+
+### 📈 GitHub Stats
+
+<div align="center">
+  <!-- Fixed GitHub Stats Card -->
+  <img src="https://github-readme-stats.vercel.app/api?username=mmmedea&show_icons=true&bg_color=030014&title_color=A855F7&text_color=9ca3af&icon_color=A855F7&hide_border=true&cache_seconds=86400" alt="GitHub Stats" />
+  
+  <br><br>
+
+  <!-- Fixed Top Languages Card -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=mmmedea&layout=compact&bg_color=030014&title_color=A855F7&text_color=9ca3af&hide_border=true&cache_seconds=86400" alt="Top Languages" />
+</div>
+
 <br>
 
 <div align="center">
-  <!-- 4. Custom UI/UX Footer SVG with Quote -->
+  <!-- Custom UI/UX Footer SVG with Quote -->
   <img src="footer.svg" width="100%" alt="Footer Banner" />
 </div>
