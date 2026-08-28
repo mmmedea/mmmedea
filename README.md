@@ -58,18 +58,9 @@
 
 </div>
 
----
-
-### 📈 GitHub Stats
-
-<div align="center">
-  <!-- 4. Replaced the buggy Activity Graph with a highly stable Top Languages card -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mmmedea&layout=compact&bg_color=030014&title_color=A855F7&text_color=9ca3af&hide_border=true&cache_seconds=86400" alt="Top Languages" />
-</div>
-
 <br>
 
 <div align="center">
-  <!-- 5. Custom UI/UX Footer SVG with Quote -->
+  <!-- 4. Custom UI/UX Footer SVG with Quote -->
   <img src="footer.svg" width="100%" alt="Footer Banner" />
 </div>
