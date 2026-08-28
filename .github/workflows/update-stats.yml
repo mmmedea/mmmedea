@@ -14,8 +14,16 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+      
+      # 1. Generates the main GitHub Stats Card
+      - name: Generate GitHub Stats Card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=mmmedea&show_icons=true&bg_color=030014&title_color=A855F7&text_color=9ca3af&icon_color=A855F7&hide_border=true
+          path: profile/stats.svg
           
-      # Generates the Top Languages Card
+      # 2. Generates the Top Languages Card
       - name: Generate Top Languages Card
         uses: stats-organization/github-readme-stats-action@v2
         with:
@@ -23,7 +31,7 @@ jobs:
           options: username=mmmedea&layout=compact&bg_color=030014&title_color=A855F7&text_color=9ca3af&hide_border=true
           path: profile/top-langs.svg
 
-      # Generates the Activity Graph
+      # 3. Generates the Activity Graph
       - name: Generate Activity Graph
         uses: maurodesouza/github-readme-activity-graph-action@v1
         with:
@@ -31,10 +39,18 @@ jobs:
           options: bg_color=030014&color=9ca3af&line=A855F7&point=ffffff&area=true&hide_border=true
           output_path: profile/activity-graph.svg
 
+      # 4. Generates the GitHub Streak Stats
+      - name: Generate GitHub Streak Stats
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: user=mmmedea&theme=dark&background=030014&ring=A855F7&fire=A855F7&currStreakNum=ffffff&sideNums=9ca3af&currStreakLabel=9ca3af&sideLabels=9ca3af&dates=9ca3af&hide_border=true
+          path: profile/streak-stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile/*.svg
-          git commit -m "Update README stats cards" || exit 0
+          git commit -m "Update all GitHub stats and badges" || exit 0
           git push
