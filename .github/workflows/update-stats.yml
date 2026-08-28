@@ -28,3 +28,11 @@ jobs:
         with:
           card: top-langs
           options: username=mmmedea&layout=compact&bg_color=030014&title_color=A855F7&text_color=9ca3af&hide_border=true
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Update README stats cards" || exit 0
+          git push
