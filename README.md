@@ -60,28 +60,16 @@
 
 ---
 
-### 🚀 StartUp Project
-
-**[RecallMate](https://recallmate-gv4ayaepl-medea18.vercel.app/)**
-A modern web application deployed on Vercel designed to streamline information retention and access.
-* **Skills & Tech Needed:** 
-  * Frontend Development (HTML, CSS, JavaScript, React.js)
-  * Cloud Hosting & Deployment (Vercel Integration)
-  * UI/UX Design principles for responsive web platforms
-  * Version Control (Git/GitHub)
-
----
-
 ### 📈 GitHub Stats
 
 <div align="center">
-  <!-- Dynamic GitHub Activity Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mmmedea&bg_color=030014&color=A855F7&line=A855F7&point=ffffff&area=true&hide_border=true" alt="GitHub Activity Graph" width="100%" />
+  <!-- 4. Replaced the buggy Activity Graph with a highly stable Top Languages card -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mmmedea&layout=compact&bg_color=030014&title_color=A855F7&text_color=9ca3af&hide_border=true&cache_seconds=86400" alt="Top Languages" />
 </div>
 
 <br>
 
 <div align="center">
-  <!-- Custom UI/UX Footer SVG with Quote -->
+  <!-- 5. Custom UI/UX Footer SVG with Quote -->
   <img src="footer.svg" width="100%" alt="Footer Banner" />
 </div>
